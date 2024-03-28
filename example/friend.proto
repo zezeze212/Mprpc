@@ -1,0 +1,38 @@
+syntax = "proto3";
+package fixbug;
+
+option cc_generic_services = true;
+// 用protoc生成Java代码就把cc改成java
+
+message ResultCode
+{
+    int32 errcode = 1;
+    bytes errmsg = 2;
+}
+
+message GetFriendsListRequest
+{
+    uint32 userid = 1;
+}
+
+message GetFriendsListResponse
+{
+    ResultCode result = 1;
+    repeated bytes friends =2;
+}
+
+
+/*这段代码定义了一个名为 UserServiceRpc 的服务接口，其中包含一个名为 Login 的 RPC 方法，
+该方法接受一个 LoginRequest 对象作为参数，并返回一个 LoginResponse 对象作为响应。
+这种定义可以帮助开发人员在客户端和服务器之间定义清晰的通信接口，
+并使用 Protocol Buffers 来序列化和反序列化数据。*/
+
+//好友模块
+service FriendServiceRpc
+{
+    //方法名不一定要和.cc文件中的方法名一致，但最好保持一致。
+    //rpc关键字用于声明一个 RPC 方法
+
+    rpc GetFriendsList(GetFriendsListRequest) returns(GetFriendsListResponse);
+}
+

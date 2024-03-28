@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/azt/MPRPC/Mprpc/src/mprpcapplication.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/azt/MPRPC/Mprpc/src/rpcprovider.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/azt/MPRPC/Mprpc/src/rpcheader.pb.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/azt/MPRPC/Mprpc/src/mprpcconfig.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/azt/MPRPC/Mprpc/src/mprpcchannel.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/azt/MPRPC/Mprpc/src/mprpccontroller.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/lockqueue.cc.o -c /home/azt/MPRPC/Mprpc/src/lockqueue.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/lockqueue.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/azt/MPRPC/Mprpc/src/logger.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/logger.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/src",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/azt/MPRPC/Mprpc/src/zookeeperutil.cc",
+  "file": "/home/azt/MPRPC/Mprpc/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/example/callee",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/azt/MPRPC/Mprpc/example/callee/friendservice.cc",
+  "file": "/home/azt/MPRPC/Mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/example/callee",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/azt/MPRPC/Mprpc/example/friend.pb.cc",
+  "file": "/home/azt/MPRPC/Mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/example/caller",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/azt/MPRPC/Mprpc/example/caller/callfriendservice.cc",
+  "file": "/home/azt/MPRPC/Mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/azt/MPRPC/Mprpc/build/Mprpc/example/caller",
+  "command": "/usr/bin/g++   -I/home/azt/MPRPC/Mprpc/src/include -I/home/azt/MPRPC/Mprpc/example  -g   -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/azt/MPRPC/Mprpc/example/friend.pb.cc",
+  "file": "/home/azt/MPRPC/Mprpc/example/friend.pb.cc"
+}
+]

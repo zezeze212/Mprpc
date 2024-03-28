@@ -1,0 +1,13 @@
+/home/azt/MPRPC/Mprpc/build/CMakeFiles/rebuild_cache.dir
+/home/azt/MPRPC/Mprpc/build/CMakeFiles/edit_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/src/CMakeFiles/rebuild_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/src/CMakeFiles/edit_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/src/CMakeFiles/mprpc.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/CMakeFiles/rebuild_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/CMakeFiles/edit_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/callee/CMakeFiles/rebuild_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/callee/CMakeFiles/edit_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/callee/CMakeFiles/provider.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/caller/CMakeFiles/rebuild_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/caller/CMakeFiles/edit_cache.dir
+/home/azt/MPRPC/Mprpc/build/Mprpc/example/caller/CMakeFiles/consumer.dir

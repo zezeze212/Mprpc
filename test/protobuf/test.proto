@@ -1,0 +1,70 @@
+syntax = "proto3"; //声明protobuf的版本
+package fixbug; //声明了代码所在的包（对于c++来说市namespace）
+
+//定义下面的选项，表示生成service服务类和rpc方法描述，默认不生产
+option cc_generic_services = true;
+
+
+
+//protobuf 不支持rpc方法，提供rpc调用所产生的系列化反序列化的需求
+
+
+message ResultCode 
+{
+    int32 errcode = 1;//错误码
+    bytes errmsg = 2;
+    map<int32,string> test = 3;
+}
+
+//数据，列表，映射表
+//定义消息类型 name pwd
+//封装好的面向对象的数据转换成字符流，字节流，再反序列化如姓名xxx等
+message  LoginRequest 
+{
+    bytes name = 1;
+    bytes pwd = 2;
+}
+
+//定义登录响应消息类型
+message LoginResponse
+{
+    ResultCode result=1;
+    bool success = 3;
+}
+
+message User
+{
+    bytes name = 1;
+    uint32 age = 2;
+    //枚举    
+    enum Sex               
+    {
+        MAN = 0;
+        WOMAN=1;
+    }
+    Sex sex = 3;
+}
+
+message GetFriendListsRequest
+{
+    uint32 userid=1;//不能是负数
+}
+
+message GetFriendListsResponse
+{
+    ResultCode result=1;
+    repeated User frinend_list = 2; //定义了一个列表类型
+}
+
+
+
+//实践3，怎么在protobuf中定义描述rpc方法的类型 -service
+service UserServiceRpc
+{
+    //定义一个rpc方法，参数LoginRequest返回LoginResponse，参数对于上述message
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendLists(GetFriendListsRequest) returns(GetFriendListsResponse);
+}
+
+// 用protoc 生成对于c++代码 protoc test.proto --cpp_out=./
+// 生成之后不仅有UserServiceRpc 还有UserServiceRpc_Stub，Stub是代理类的意思
